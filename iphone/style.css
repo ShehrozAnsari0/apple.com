@@ -1,0 +1,536 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgba(255,255, 255, 0.8);
+    width: 99vw;
+    position: fixed;
+    z-index: 2;
+
+}
+
+.navbar {
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 70%;
+    min-height: 30px;
+    display: flex;
+    margin: auto;
+    list-style-type: none;
+    
+}
+
+.navbar li a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.bag{
+    font-size: 14px;
+}
+/* body{
+
+    background-image: url(./images/hero_iphone16pro_avail__fnf0f9x70jiy_largetall.jpg);
+    background-size: cover;  background-repeat: no-repeat;
+} */
+
+
+.images {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Heading {
+
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.Heading h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52px;
+}
+
+
+.Heading h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.img1 {
+
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-image: url(./images/hero_iphone16pro_avail__fnf0f9x70jiy_largetall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    back
+}
+
+.learnmore {
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    padding: 12px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 130px;
+
+}
+
+.buybutton {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.buybutton:hover {
+
+    background-color: white;
+    color: black;
+}
+
+.img2 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    background-image: url(./images/hero_iphone16_avail__euwzls69btea_largetall.jpg);
+    background-size: 3008px 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Headingagain {
+
+    /* background-color: black; */
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.Headingagain h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52px;
+}
+
+
+.Headingagain h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+
+.learnmore {
+    /* background-color: blue; */
+    /* border: none; */
+    /* border-radius: 50px; */
+    /* padding: 10px; */
+    /* color: white; */
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 130px;
+
+}
+
+.buybutton {
+    /* background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    padding: 10px; */
+
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.buybutton:hover {
+
+    background-color: white;
+    color: black;
+}
+
+.twoimages {
+    width: 100%;
+    height: 580px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.twoimages .twoimagesleft {
+
+
+
+    width: 50%;
+    height: 580px;
+
+    background-image: url(./images/promo_iphone16_avail__cl72dn7xdfv6_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.twoimagesleft>.buttons {
+    position: relative;
+    left: 180px;
+    display: inline-block;
+}
+
+.twoimagesright>.buttons {
+    position: relative;
+    left: 180px;
+    display: inline-block;
+}
+
+.twoimagesright .buybutton:hover {
+
+    background-color: white;
+    color: black;
+}
+
+.twoimagesleft .buybutton:hover {
+
+    background-color: white;
+    color: black;
+}
+
+
+.twoimages .twoimagesright {
+
+
+    width: 50%;
+    height: 580px;
+
+    background-image: url(./images/promo_ipadair_ai__3fv1eitzqv6y_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headingtwoimage {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* 
+
+ .learnmore {
+
+
+    text-align: center;
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+
+} */
+
+.twoimagesright .buybutton {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+}
+
+
+/* 
+.twoimagesleft .learnmore {
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+
+} */
+
+.twoimagesleft .buybutton {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.twoimagesagain {
+    margin-top: 10px;
+    max-width: 100vw;
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.twoimagesagain>.twoimagesleftagain {
+
+    width: 50%;
+    height: 580px;
+    background-image: url(./images/promo_airpods_4_avail__bl22kvpg6ez6_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.twoimagesagain>.twoimagesrightagain {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+    height: 580px;
+    background-image: url(./images/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg);
+
+}
+
+
+.headingtwoimageagain {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    position: relative;
+    top: 40%;
+}
+
+/* 
+.headingtwoimageagain h1 h2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* color: white; */
+/* font-size: 35px;
+    margin-bottom: 200px;
+    align-items: center;
+} */
+
+.buttonsagain1234 {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+
+}
+
+.buttonsagain {
+    /* display: inline-block; */
+    /* position: relative;
+    left: 30%;
+    top: 65%; */
+}
+
+/* 
+.buttonsagain .learnmore {
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+} */
+
+/* .buttonsagain .buybutton {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+} */
+
+.buttonsagain .buybutton:hover {
+    background-color: white;
+    color: #000;
+}
+
+.watchlogo {
+
+    background-size: contain;
+    background-position: center;
+
+    width: 158px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-image: url(./images/promo_logo_apple_watch_series_10__qk5vaa89vnm2_large.png);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.twoimagesrightagain h3 {
+
+    color: black;
+    position: relative;
+    bottom: 350px;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    bottom: 210px;
+}
+
+.twoimagesrightagain .buttons {
+
+    margin-left: 200px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.twoimagesrightagain .buttons .buybutton {
+
+    color: black;
+    border: 1px solid black;
+}
+
+.twoimagesrightagain .buttons .buybutton:hover {
+
+    background-color: black;
+    color: white;
+}
+
+.end {
+    display: flex;
+  
+    justify-content: space-around;
+}
+
+.footer{
+
+    width: 100%;
+    height: 1100px;
+    background-color: #F5F5F7;
+
+}
+.endedfonts{
+
+    font-size: small;
+    color: #ABABAC;
+}
+.endbox{
+    border-bottom: 1px solid #ABABAC;
+}
+.lists{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 500px;
+}
+.lists p {
+  color: #ABABAC;
+  font-size: small;
+  line-height: 10px;
+}
+.lists p:hover {
+text-decoration: underline;
+text-decoration-color: black;
+    
+}
+
+.headingblack{
+    color: #5A5A5B !important;
+    font-weight: light !important;
+    
+}
+
+
+.headingblack:hover{
+text-decoration: none !important;
+}
+
+.midac{
+    color:#7D7D7E;
+}
+
+.lastraw li{
+
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 8px;
+    border-right: 1px solid black;
+    font-size: small;
+   
+}
+
+.anclast{
+    text-decoration: none;
+    color: black;
+}
+
+.anclast:hover{
+    text-decoration: underline;
+    
+}
+/* .stream{
+    border-radius: 25px;
+    background-color:#F5F5F7 ;
+    padding: 8px;
+    border: none;
+    width: 130px;
+    position: relative;
+    bottom: 70px;
+    left: 60px;
+} */
